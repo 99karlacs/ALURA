@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Logo Alura en color azul">
+    </header>
+    <main>
+        <div class="izquiera">
+            <form class="comentario">
+                <label for="comentario"></label><br>
+                <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escriba texto aquí"></textarea>
+            </form>
+            <p class="p-izq">Solo letras minúsculas y sin acentos</p>
+            <div class="botones">
+                <button id="encriptar">Encriptar</button>
+                <button id="desencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="derecha">
+            <img  id="imagenDer" class="div_der" src="Muñeco.png" alt="Niño con lupa">
+            <p id="mensaje1" class="div_der">Ningún mensaje fue encontrado</p>
+            <p id="mensaje2" class="div_der">Ingresa el texto que deseas encriptar o desencriptar.</p>
+            <p id="resultado" class="div_der" style="display: none;"></p>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body> 
+<footer>
+    <p>Realizado por KFCS</p>
+</footer>
+</html>
